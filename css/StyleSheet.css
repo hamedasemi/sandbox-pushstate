@@ -1,0 +1,20 @@
+a {
+    font-size: 2rem;
+}
+
+main {
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+main.loading {
+    background-image: url(/css/assets/loader.gif);
+}
+
+main.error {
+    /*background-image: url(/css/assets/error.gif);*/
+}
+
+main.success {
+    background-image: none;
+}
